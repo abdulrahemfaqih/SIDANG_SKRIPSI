@@ -1,0 +1,22 @@
+{
+  "model": "SVM_META",
+  "cv": {
+    "n_folds": 5,
+    "n_candidates": 20,
+    "total_fits": 100
+  },
+  "best_score": 0.9485,
+  "best_params": {
+    "C": 0.1,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "fold_scores": [
+    0.9454,
+    0.937,
+    0.9589,
+    0.9452,
+    0.9562
+  ],
+  "mean": 0.9485
+}
