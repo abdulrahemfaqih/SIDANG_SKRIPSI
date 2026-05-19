@@ -5,10 +5,10 @@
     "n_candidates": 144,
     "total_fits": 720
   },
-  "best_score": 0.8412,
+  "best_score": 0.8279,
   "best_params": {
     "activation": "relu",
-    "alpha": 0.0001,
+    "alpha": 0.001,
     "hidden_layer_sizes": [
       50,
       50
@@ -16,11 +16,11 @@
     "max_iter": 1000
   },
   "fold_scores": [
-    0.8005,
-    0.8685,
-    0.8521,
-    0.8575,
-    0.8274
+    0.814,
+    0.814,
+    0.8544,
+    0.8248,
+    0.8324
   ],
-  "mean": 0.8412
+  "mean": 0.8279
 }

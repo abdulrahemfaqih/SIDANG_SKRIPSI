@@ -5,18 +5,18 @@
     "n_candidates": 20,
     "total_fits": 100
   },
-  "best_score": 0.9485,
+  "best_score": 0.9434,
   "best_params": {
     "C": 0.1,
     "gamma": "scale",
-    "kernel": "rbf"
+    "kernel": "linear"
   },
   "fold_scores": [
-    0.9454,
-    0.937,
-    0.9589,
-    0.9452,
-    0.9562
+    0.9461,
+    0.9407,
+    0.9326,
+    0.9407,
+    0.9568
   ],
-  "mean": 0.9485
+  "mean": 0.9434
 }
