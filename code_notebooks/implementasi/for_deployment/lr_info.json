@@ -1,0 +1,22 @@
+{
+  "model": "LogisticRegression",
+  "cv": {
+    "n_folds": 5,
+    "n_candidates": 80,
+    "total_fits": 400
+  },
+  "best_score": 0.7481,
+  "best_params": {
+    "C": 0.012742749857031334,
+    "penalty": "l2",
+    "solver": "liblinear"
+  },
+  "fold_scores": [
+    0.7601,
+    0.7089,
+    0.7466,
+    0.7655,
+    0.7595
+  ],
+  "mean": 0.7481
+}

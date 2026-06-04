@@ -1,0 +1,22 @@
+{
+  "model": "SVM",
+  "cv": {
+    "n_folds": 5,
+    "n_candidates": 20,
+    "total_fits": 100
+  },
+  "best_score": 0.9186,
+  "best_params": {
+    "C": 1000,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "fold_scores": [
+    0.9326,
+    0.9245,
+    0.9057,
+    0.903,
+    0.927
+  ],
+  "mean": 0.9186
+}

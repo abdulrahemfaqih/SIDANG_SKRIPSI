@@ -1,0 +1,22 @@
+{
+  "model": "LogReg_META",
+  "cv": {
+    "n_folds": 5,
+    "n_candidates": 80,
+    "total_fits": 400
+  },
+  "best_score": 0.9444,
+  "best_params": {
+    "C": 0.08858667904100823,
+    "penalty": "l2",
+    "solver": "liblinear"
+  },
+  "fold_scores": [
+    0.9488,
+    0.9461,
+    0.9407,
+    0.9326,
+    0.9541
+  ],
+  "mean": 0.9444
+}

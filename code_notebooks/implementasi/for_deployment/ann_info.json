@@ -1,0 +1,26 @@
+{
+  "model": "ANN",
+  "cv": {
+    "n_folds": 5,
+    "n_candidates": 72,
+    "total_fits": 360
+  },
+  "best_score": 0.8247,
+  "best_params": {
+    "activation": "relu",
+    "hidden_layer_sizes": [
+      50,
+      50
+    ],
+    "learning_rate_init": 0.001,
+    "max_iter": 500
+  },
+  "fold_scores": [
+    0.8032,
+    0.8086,
+    0.8464,
+    0.8329,
+    0.8324
+  ],
+  "mean": 0.8247
+}

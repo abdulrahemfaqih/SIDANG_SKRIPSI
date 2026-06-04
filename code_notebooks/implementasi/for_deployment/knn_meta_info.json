@@ -1,0 +1,22 @@
+{
+  "model": "KNN_META",
+  "cv": {
+    "n_folds": 5,
+    "n_candidates": 48,
+    "total_fits": 240
+  },
+  "best_score": 0.9466,
+  "best_params": {
+    "metric": "manhattan",
+    "n_neighbors": 11,
+    "weights": "uniform"
+  },
+  "fold_scores": [
+    0.9488,
+    0.9488,
+    0.9326,
+    0.9407,
+    0.9622
+  ],
+  "mean": 0.9466
+}
