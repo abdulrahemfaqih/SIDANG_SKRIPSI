@@ -2,21 +2,21 @@
   "model": "KNN_META",
   "cv": {
     "n_folds": 5,
-    "n_candidates": 48,
-    "total_fits": 240
+    "n_candidates": 28,
+    "total_fits": 140
   },
-  "best_score": 0.9466,
+  "best_score": 0.9703,
   "best_params": {
-    "metric": "manhattan",
+    "metric": "euclidean",
     "n_neighbors": 11,
-    "weights": "uniform"
+    "weights": "distance"
   },
   "fold_scores": [
-    0.9488,
-    0.9488,
-    0.9326,
-    0.9407,
-    0.9622
+    0.9708,
+    0.9666,
+    0.977,
+    0.9729,
+    0.9644
   ],
-  "mean": 0.9466
+  "mean": 0.9703
 }

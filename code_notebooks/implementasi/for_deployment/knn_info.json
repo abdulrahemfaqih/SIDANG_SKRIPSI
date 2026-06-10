@@ -2,21 +2,21 @@
   "model": "KNN",
   "cv": {
     "n_folds": 5,
-    "n_candidates": 48,
-    "total_fits": 240
+    "n_candidates": 28,
+    "total_fits": 140
   },
-  "best_score": 0.9439,
+  "best_score": 0.9645,
   "best_params": {
     "metric": "manhattan",
     "n_neighbors": 5,
     "weights": "distance"
   },
   "fold_scores": [
-    0.9461,
-    0.938,
-    0.9299,
-    0.9434,
-    0.9622
+    0.977,
+    0.9562,
+    0.9562,
+    0.9687,
+    0.9644
   ],
-  "mean": 0.9439
+  "mean": 0.9645
 }

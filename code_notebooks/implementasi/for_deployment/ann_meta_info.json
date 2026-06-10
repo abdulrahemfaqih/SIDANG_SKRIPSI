@@ -5,22 +5,21 @@
     "n_candidates": 72,
     "total_fits": 360
   },
-  "best_score": 0.9455,
+  "best_score": 0.9712,
   "best_params": {
     "activation": "logistic",
     "hidden_layer_sizes": [
-      20,
-      10
+      100
     ],
     "learning_rate_init": 0.001,
     "max_iter": 500
   },
   "fold_scores": [
-    0.9515,
-    0.9434,
-    0.9407,
-    0.9272,
-    0.9649
+    0.9791,
+    0.9645,
+    0.9708,
+    0.9749,
+    0.9665
   ],
-  "mean": 0.9455
+  "mean": 0.9712
 }
